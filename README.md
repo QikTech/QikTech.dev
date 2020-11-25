@@ -1,2 +1,0 @@
-# QikTech.dev
-Projects Everywhere
