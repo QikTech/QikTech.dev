@@ -1,0 +1,46 @@
+.main_div{
+    display: flex; 
+    // justify-content: center;
+    // flex-direction: column;
+ 
+
+    .navigator{
+        // background-color: blue;
+        margin: 20% 0% 0% 4%;
+    }
+    .content{
+        // background-color: blueviolet;    
+
+        
+    }
+}
+
+.websites{
+    margin: 5% 5% 5% 20%;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #FFF1E6;
+}
+.apps{
+    margin: 5% 5% 5% 20%;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #FAD2E1;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    .content1{
+        display: flex;
+    }
+}
+
+
+
+div{
+    height: 200vh;
+}

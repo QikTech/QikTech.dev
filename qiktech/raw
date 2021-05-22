@@ -1,0 +1,40 @@
+<div class="main_div">
+        <div data-scroll data-scroll-speed="1" class="navigator">
+          <!-- <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul> -->
+          
+            
+            <a class="remover third"  href="#news">   News    </a>
+            <a class="remover fourth" href="#contact">Contact </a>
+            <!-- <a class="remover " href="#about">About</a> -->
+          
+        </div>
+
+        <div  class="content">
+          <div class="content1">
+                  <div class="left">
+                    <a class="remover second" href="#home">   Home    </a>
+                  </div>
+                  <div class="websites right">
+                    <p>elit</p>
+                </div>
+          </div>
+
+          <div class="content2">
+                  <div class="left">
+                    <a class="remover second" href="#home">   news    </a>
+                  </div>
+                  <div class="websites right">
+                    <p>elit</p>
+                </div>
+          </div>
+
+                  <!-- <div id="news" class="apps ">
+                    <p>Lorem ipsum dolor sit amet,  consectetur adipiscing   elit  </p>  
+                </div> -->
+        </div>
+      </div> 

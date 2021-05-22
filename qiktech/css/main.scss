@@ -1,3 +1,8 @@
+@import "header";
+@import "home";
+@import "nav";
+@import "structure";
+
 * {
      box-sizing: border-box;
 }
@@ -11,106 +16,6 @@ body {
 section{
      height: 100vh;
     padding: 20px;
-     
 }
 
-.text{
-     color: #f5cb5c;
-}
 
-// .main{
-//      display: flex;
-//      flex-direction: column;
-//      height: 200vh;
-// }
-
-.home {
-     background-color: #001427;
-     display: flex;
-     // flex-direction: column;
-     justify-content: center;
-     align-items: center;          
-          color: aqua;
-          font-family: 'Chelsea Market', cursive;
-     // font-size: 3.5vw;
-     .homeh{
-          font-size: 10vw;
-     }
-     h5{
-          font-size: 4vw;
-          color: #ffffff;
-     }
-     
-}
-.websites {
-     background-color: #708d81;     
-     font-family: 'Zilla Slab Highlight', cursive;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     font-size: 3.5vw;
-     .websitesh{
-          font-size: 10vw;
-     }
-     .websitesp{
-          font-size: 4vw;
-     }
-}
-.apps {
-     background-color: #f4d58d;
-     font-family: 'Bungee Shade', cursive;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     font-size: 3.5vw;
-     .appsh{
-          font-size: 10vw;
-     }
-     .appsp{
-          font-size: 3vw;
-     }
-}
-.designs {
-     background-color: #ffff;
-     font-family: 'Sansita Swashed', cursive;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     .designsh{
-          font-size: 8vw;
-     }
-     .designsp{
-          font-size: 2vw;
-     }
-}
-.footer {
-     background-color: #8d0801;
-     font-family: 'Oregano', cursive;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     font-size: 6vw;
-     color: #ffffff;
-     .footerh{
-          font-size: 8vw;
-     }
-     .footerp{
-          font-size: 3vw;
-     }
-}
-
-.fonts{
-     font-family: 'Bungee Shade', cursive;
-
-     font-family: 'Chelsea Market', cursive;
- 
-     font-family: 'Oregano', cursive;
- 
-     font-family: 'Sansita Swashed', cursive;
- 
-     font-family: 'Zilla Slab Highlight', cursive;
-}
