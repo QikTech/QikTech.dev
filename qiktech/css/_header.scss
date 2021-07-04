@@ -1,43 +1,16 @@
-// font-family: 'Poppins', sans-serif;
-// font-family: 'Sulphur Point', sans-serif;
+.header{
+    // position: fixed;
+    width: 122px;
+    height: 36px;
+    left: 3.5%;
+    top: 70px;
 
-// header{
-//     position: fixed;
-//     color: #000000;
-//     z-index: 1;
-//     font-family: 'Sulphur Point', sans-serif;
-//     font-weight: 700;
-//     font-size: large;
-//     margin: 2% 0% 0% 2%;
-// }
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
 
-// ul {
-//     list-style-type: none;
-//     margin: 0;
-//     padding: 0;
-//     width: 60px;
-//   } 
-  
-//   li a {
-//     display: block;
-//     background-color: #dddddd;
-//   }
-
-header{
-    position: absolute;
-width: 122px;
-height: 36px;
-left: 75px;
-top: 70px;
-
-font-family: Sulphur Point;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 36px;
-/* identical to box height */
-
-
-color: #000000;
-z-index: 1;
+    color: #000;
+    font-family: 'Sulphur Point', sans-serif;
+    z-index: 3;
 }
