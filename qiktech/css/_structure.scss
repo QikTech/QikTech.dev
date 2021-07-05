@@ -17,6 +17,11 @@ section{
 
 
 .home {
+     a{
+          color: black;
+     }
+
+
     background-color: #fff;         
     color: black;
     font-family: Sulphur Point;
@@ -43,17 +48,10 @@ section{
          }
     }
     .logo{
-     //     position: fixed;
          font-size: 1.5vw;
          left: 50%;
-
-         text-decoration: none;
-         color: inherit;
-     //     background-color: black;
-     //     color: white;
          margin-top: 4%;
          margin-left: 1%;
-
          .logo:hover{
           color: #ff1493;
      }
@@ -65,80 +63,58 @@ section{
     
 }
 .websites {
-    background-color: #708d81;     
-    font-family: 'Zilla Slab Highlight', cursive;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    background-color: #fff;     
+     font-family: Sulphur Point;
+    font-family: 'Bungee Shade', cursive;
+
     font-size: 3.5vw;
 
-    .cardContainer{
-         margin-top: -6%;
-
-         display: flex;
-         align-items: baseline;
-         justify-content: center;
-    }
+   
     .websitesh{
-          margin-left: 13%;
-          margin-top: 7%;
           font-size: 5vw;
-
     }
-    .card{
-         margin: 1%;
-         font-size: 1vw;
-         height: auto;
-         width: 500px;
-         background-color: white;
-         border-radius: 5px;
-          font-family: Sulphur Point;
-
-          .img_container{
-               .myimg{
-                    width: 100%;
-                    object-fit:cover;
-                    border-radius: 10px;
-                  }
-      }
-      .card_actions{
-           display: flex;
-           justify-content: space-between;
-           padding: 2%;
-           .card_button{
-                padding: 0px 50px;
-           }
-      }
-    }
+    
 }
 .apps {
-    background-color: #f4d58d;
+//     background-color: #f4d58d;
+    background-color: #fff;
     font-family: 'Bungee Shade', cursive;
+// font-family: Sulphur Point;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 3.5vw;
     .appsh{
-         font-size: 10vw;
+         font-size: 5vw;
     }
     .appsp{
          font-size: 3vw;
     }
 }
 .designs {
-    background-color: #ffff;
+    background-color: #fff;
     font-family: 'Sansita Swashed', cursive;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     .designsh{
-         font-size: 8vw;
+         font-size: 5vw;
+    margin-top: 0vh;
+
     }
     .designsp{
          font-size: 2vw;
     }
 }
 .footer {
-    background-color: #8d0801;
+    background-color: #000;
     font-family: 'Oregano', cursive;
     display: flex;
     flex-direction: column;

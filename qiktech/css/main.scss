@@ -4,11 +4,14 @@
 @import "structure";
 @import "header";
 @import "navigator";
+@import "card";
+@import "gallery";
 
 * {
      box-sizing: border-box;
     scroll-behavior: smooth;
-
+    text-decoration: none;
+    color: inherit;
 }
 
 body {

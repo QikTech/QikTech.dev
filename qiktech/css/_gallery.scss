@@ -1,0 +1,52 @@
+.design_card_container{
+    margin-top: -5vh;
+    display: flex;
+    overflow-y: scroll;
+    margin-left: 5%;
+
+    .card{
+        margin-left: 3%;
+        font-size: 1vw;
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 1px;
+         font-family: Sulphur Point;
+    
+         .img_container{
+              .myimg{
+                width: 20vw;
+                height: auto;
+                object-fit:cover;
+                border-radius: 10px;
+                 }
+     }
+     .card_actions{
+          display: flex;
+          justify-content: space-between;
+          padding: 2%;
+          .card_button{
+               padding: 0px 20px;
+          }
+     }
+    }
+}
+
+
+
+// CUSTOM SCROLLBAR
+.design_card_container::-webkit-scrollbar {
+    height: 4px;
+  }
+.design_card_container:hover::-webkit-scrollbar {
+    height: 8px;
+  }
+   
+  .design_card_container::-webkit-scrollbar-thumb {
+    background-color: #e6e6e6;
+  }
+
+  .design_card_container:hover::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 5px;
+  }
