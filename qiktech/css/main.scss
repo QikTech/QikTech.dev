@@ -6,6 +6,7 @@
 @import "navigator";
 @import "card";
 @import "gallery";
+@import "responsive";
 
 * {
      box-sizing: border-box;
@@ -22,7 +23,5 @@ body {
 
 section{
      height: 100vh;
-    padding: 20px;
+//     padding: 20px;
 }
-
-

@@ -1,0 +1,125 @@
+@media only screen and (max-width: 768px) {
+    .home {
+       .intro{
+        margin-left: 7%;
+        margin-top: 10%;
+        font-size: 5vw;
+        letter-spacing: 0.1px;
+        font-weight: 600;
+        line-height: 25px;
+     }
+       .navigation{
+            line-height: 400%;
+        margin-left: 7%;
+        margin-top: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+     //    text-decoration: underline;
+        font-weight: 900;
+        
+            .homeh2{
+             font-size: 14vw;
+             margin-bottom: 1%;
+             margin-left: 0%;
+            }
+       }
+       .logo{
+            font-size: 6vw;
+            margin-top: 5%;
+            margin-left: 3%;
+       }
+   }
+
+ .websites {
+      height: auto;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+    font-size: 3.5vw;
+     .websitesh{
+               font-size: 8vw;
+     }
+     }
+
+ .card{
+     font-size: 5vw;
+     width: 98vw;
+     }
+     .cardContainer{
+          margin-right: 1%;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+     }
+
+ .apps {
+          height: auto;
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          font-size: 3.5vw;
+          .appsh{
+               font-size: 8vw;
+          }
+     }
+
+     .designs {
+          margin-top: 10%;
+          margin-bottom: 10%;
+          height: auto;          
+          justify-content: flex-start;
+          align-items: flex-start;
+          .designsh{
+          font-size: 8vw;
+          margin-top: 0vh;
+          }
+      }
+
+
+ .design_card_container{
+     display: grid;
+     grid-template-columns: auto auto;
+     align-items: center;
+     justify-items: center;
+
+     grid-gap: 10px;
+     margin-top: 0;
+     margin-left: 0%;
+     
+     .card{
+          margin-left: 0%;
+          font-size: 5vw;
+          height: auto;
+          width: auto;
+          background-color: white;
+          border-radius: 1px;
+          font-family: Sulphur Point;
+     
+          .img_container{
+               .myimg{
+                    width: 100%;
+                    height: auto;
+                    object-fit:cover;
+                    border-radius: 10px;
+                    }
+          }
+          .card_actions{
+               width: 100%;
+               display: flex;
+               flex-wrap: wrap;
+               flex-direction: column;
+               text-align: center;
+               padding: 0%;
+               .card_button{
+                    font-size: 3vw;
+                    width: auto;
+                    padding: 8px 5%;
+               }
+          }
+     }
+     }
+}

@@ -4,6 +4,6 @@ var t=arguments[3];function e(t,e){if(!(t instanceof e))throw new TypeError("Can
 },{}],"I7Ak":[function(require,module,exports) {
 
 },{}],"Focm":[function(require,module,exports) {
-"use strict";var e=r(require("locomotive-scroll"));function r(e){return e&&e.__esModule?e:{default:e}}require("./css/main.css");var t=new e.default({el:document.querySelector("[data-scroll-container]"),smooth:!0}),c=document.querySelectorAll(".project"),o=document.querySelector(".overlay"),n=document.querySelector(".overlay__inner img");function l(e){o.classList.add("open");var r=e.currentTarget.querySelector("img").src;n.src=r}function u(){o.classList.remove("open")}c.forEach(function(e){return e.addEventListener("click",l)}),o.addEventListener("click",u);
+"use strict";var e=r(require("locomotive-scroll"));function r(e){return e&&e.__esModule?e:{default:e}}require("./css/main.css");var o=new e.default({el:document.querySelector("[data-scroll-container]"),smooth:!0});
 },{"locomotive-scroll":"yZcy","./css/main.css":"I7Ak"}]},{},["Focm"], null)
-//# sourceMappingURL=/qiktech.4ca7a88f.js.map
+//# sourceMappingURL=/qiktech.3c995562.js.map

@@ -6,14 +6,15 @@ body {
     margin: 0;
 }
 
-section{
-    height: 100vh;
-   padding: 20px;  
-}
-
 .text{
     color: #f5cb5c;
 }
+
+
+
+
+
+
 
 
 .home {
@@ -21,8 +22,7 @@ section{
           color: black;
      }
 
-
-    background-color: #fff;         
+    background-color: #fff;    
     color: black;
     font-family: Sulphur Point;
     .intro{
@@ -47,6 +47,7 @@ section{
           transition: 300ms;
          }
     }
+
     .logo{
          font-size: 1.5vw;
          left: 50%;
@@ -62,6 +63,7 @@ section{
     }
     
 }
+
 .websites {
      display: flex;
      flex-direction: column;

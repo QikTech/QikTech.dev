@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-section {
-  height: 100vh;
-  padding: 20px;
-}
-
 .text {
   color: #f5cb5c;
 }
@@ -388,6 +383,164 @@ button:hover {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .home .intro {
+    margin-left: 7%;
+    margin-top: 10%;
+    font-size: 5vw;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .home .navigation {
+    line-height: 400%;
+    margin-left: 7%;
+    margin-top: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-weight: 900;
+  }
+  .home .navigation .homeh2 {
+    font-size: 14vw;
+    margin-bottom: 1%;
+    margin-left: 0%;
+  }
+  .home .logo {
+    font-size: 6vw;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  .websites {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 3.5vw;
+  }
+  .websites .websitesh {
+    font-size: 8vw;
+  }
+  .card {
+    font-size: 5vw;
+    width: 98vw;
+  }
+  .cardContainer {
+    margin-right: 1%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .apps {
+    height: auto;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 3.5vw;
+  }
+  .apps .appsh {
+    font-size: 8vw;
+  }
+  .designs {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .designs .designsh {
+    font-size: 8vw;
+    margin-top: 0vh;
+  }
+  .design_card_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    margin-top: 0;
+    margin-left: 0%;
+  }
+  .design_card_container .card {
+    margin-left: 0%;
+    font-size: 5vw;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 1px;
+    font-family: Sulphur Point;
+  }
+  .design_card_container .card .img_container .myimg {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .design_card_container .card .card_actions {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0%;
+  }
+  .design_card_container .card .card_actions .card_button {
+    font-size: 3vw;
+    width: auto;
+    padding: 8px 5%;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -402,6 +555,5 @@ body {
 
 section {
   height: 100vh;
-  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */
