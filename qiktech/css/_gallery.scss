@@ -1,11 +1,15 @@
 .design_card_container{
     margin-top: -5vh;
     display: flex;
-    overflow-y: scroll;
+    // overflow-y: hidden;
+    overflow-x: scroll;
     margin-left: 5%;
+    scrollbar-color: #000 #e6e6e6;
+    scrollbar-width: thin;
 
     .card{
         margin-left: 3%;
+        margin-right: 5%;
         font-size: 1vw;
         height: auto;
         width: auto;

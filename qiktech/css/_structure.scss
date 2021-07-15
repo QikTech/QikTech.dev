@@ -10,26 +10,19 @@ body {
     color: #f5cb5c;
 }
 
-
-
-
-
-
-
-
 .home {
      a{
           color: black;
      }
 
-    background-color: #fff;    
+    background-color: #fff;
     color: black;
     font-family: Sulphur Point;
     .intro{
-     margin-left: 13%;
-     margin-top: 6%;
-     font-size: 1.2vw;
-}
+          margin-left: 13%;
+          margin-top: 6%;
+          font-size: 1.2vw;
+     }
     .navigation{
      margin-top: 10%;
      // margin-left: 10%;
@@ -44,7 +37,7 @@ body {
          }
          .homeh2:hover{
               color: #7fff00;
-          transition: 300ms;
+          // transition: 300ms;
          }
     }
 
