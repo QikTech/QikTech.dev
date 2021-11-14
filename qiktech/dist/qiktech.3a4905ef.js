@@ -6,4 +6,4 @@ var t=arguments[3];function e(t,e){if(!(t instanceof e))throw new TypeError("Can
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=r(require("locomotive-scroll"));function r(e){return e&&e.__esModule?e:{default:e}}require("./css/main.css");var o=new e.default({el:document.querySelector("[data-scroll-container]"),smooth:!0});
 },{"locomotive-scroll":"yZcy","./css/main.css":"I7Ak"}]},{},["Focm"], null)
-//# sourceMappingURL=/qiktech.3c995562.js.map
+//# sourceMappingURL=/qiktech.3a4905ef.js.map

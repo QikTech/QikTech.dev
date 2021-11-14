@@ -23,6 +23,7 @@ body {
 
 .home .intro {
   margin-left: 13%;
+  margin-right: 12%;
   margin-top: 6%;
   font-size: 1.2vw;
 }
@@ -82,7 +83,7 @@ body {
           justify-content: center;
   background-color: #fff;
   font-family: Sulphur Point;
-  font-family: 'Bungee Shade', cursive;
+  font-family: Sulphur Point;
   font-size: 3.5vw;
 }
 
@@ -92,7 +93,7 @@ body {
 
 .apps {
   background-color: #fff;
-  font-family: 'Bungee Shade', cursive;
+  font-family: Sulphur Point;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,7 +120,7 @@ body {
 
 .designs {
   background-color: #fff;
-  font-family: 'Sansita Swashed', cursive;
+  font-family: Sulphur Point;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +147,7 @@ body {
 
 .footer {
   background-color: #000;
-  font-family: 'Oregano', cursive;
+  font-family: Sulphur Point;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,8 +165,24 @@ body {
   color: #ffffff;
 }
 
+.footer .social_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .social_links .links {
+  margin: 4%;
+}
+
 .footer .footerh {
-  font-size: 8vw;
+  font-size: 2vw;
 }
 
 .footer .footerp {
@@ -396,7 +413,7 @@ button:hover {
   .home .navigation {
     line-height: 400%;
     margin-left: 7%;
-    margin-top: 60%;
+    margin-top: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -428,9 +445,9 @@ button:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -438,8 +455,10 @@ button:hover {
   }
   .websites .websitesh {
     font-size: 8vw;
+    margin-bottom: 4vh;
   }
   .card {
+    margin-left: 0.4%;
     font-size: 5vw;
     width: 98vw;
   }
@@ -469,13 +488,15 @@ button:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 3.5vw;
   }
   .apps .appsh {
+    text-align: center;
     font-size: 8vw;
+    margin-bottom: 4vh;
   }
   .designs {
     margin-top: 10%;
@@ -484,13 +505,14 @@ button:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .designs .designsh {
     font-size: 8vw;
     margin-top: 0vh;
+    margin-bottom: 4vh;
   }
   .design_card_container {
     display: -ms-grid;
@@ -503,7 +525,7 @@ button:hover {
     justify-items: center;
     grid-gap: 10px;
     margin-top: 0;
-    margin-left: 0%;
+    margin-left: 2%;
   }
   .design_card_container .card {
     margin-left: 0%;
@@ -539,6 +561,159 @@ button:hover {
     font-size: 3vw;
     width: auto;
     padding: 8px 5%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .home .intro {
+    margin-top: 10%;
+    font-size: 2vw;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .home .navigation {
+    line-height: 600%;
+    margin-left: 7%;
+    margin-top: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 900;
+  }
+  .home .navigation .homeh2 {
+    font-size: 10vw;
+    margin-bottom: 1%;
+    margin-left: 0%;
+  }
+  .home .logo {
+    font-size: 3vw;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  .websites {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 3.5vw;
+  }
+  .websites .websitesh {
+    font-size: 8vw;
+    margin-bottom: 10vh;
+  }
+  .apps {
+    height: auto;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 3.5vw;
+  }
+  .apps .appsh {
+    text-align: center;
+    font-size: 8vw;
+    margin-bottom: 10vh;
+    margin-top: 0vh;
+  }
+  .designs {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .designs .designsh {
+    font-size: 8vw;
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+  }
+  .card {
+    margin-left: 0.4%;
+    font-size: 5vw;
+    width: 60vw;
+  }
+  .cardContainer {
+    margin-right: 1%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .design_card_container {
+    margin-top: -5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 50%;
+    margin-right: 8%;
+    scrollbar-color: #000 #e6e6e6;
+    scrollbar-width: thin;
+  }
+  .design_card_container .card {
+    margin-left: 1%;
+    font-size: 2vw;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 1px;
+  }
+  .design_card_container .card .img_container .myimg {
+    width: 30vw;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .design_card_container .card .card_actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2%;
+  }
+  .design_card_container .card .card_actions .card_button {
+    padding: 5px 30px;
   }
 }
 
